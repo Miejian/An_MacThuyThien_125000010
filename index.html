@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cyber-Chrono 2088: Neon Protocol - Tựa game nhập vai chiến thuật Gen Z hàng đầu với đồ họa Cyberpunk và lối chơi trí tuệ đỉnh cao.">
+  <meta name="keywords" content="Cyberpunk, Tactical RPG, Gen Z Game, Neon Protocol, Mạc Thủy Thiên Ân, 25AI111, Lạc Hồng University">
+  <meta name="author" content="Mạc Thủy Thiên Ân (MSSV: 25AI111)">
+  
+  <title>CYBER-CHRONO 2088: NEON PROTOCOL | Tactical Gen-Z RPG Showcase</title>
+
+  <!-- Google Fonts: Orbitron (Cyberpunk Heading) & Inter (Modern Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Animate.css v4.1.1 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- AOS (Animate On Scroll) CDN CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER (FLEXBOX LAYOUT) ==================== -->
+  <header class="site-header">
+    <a href="#hero" class="brand-logo" aria-label="Trang chủ Cyber-Chrono 2088">
+      <span class="logo-symbol"><i class="fa-solid fa-gamepad"></i></span>
+      <span class="logo-title">CYBER<span class="highlight-cyan">CHRONO</span></span>
+      <span class="logo-badge">2088</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Điều hướng chính">
+      <ul class="nav-links">
+        <li><a href="#lore" class="nav-link"><i class="fa-solid fa-terminal"></i> Thế giới Lore</a></li>
+        <li><a href="#characters" class="nav-link"><i class="fa-solid fa-user-ninja"></i> Nhân vật</a></li>
+        <li><a href="#gameplay" class="nav-link"><i class="fa-solid fa-crosshairs"></i> Chiến thuật</a></li>
+        <li><a href="#pre-register" class="nav-link"><i class="fa-solid fa-gift"></i> Đăng ký sớm</a></li>
+      </ul>
+      <a href="#pre-register" class="btn btn-neon nav-cta animate__animated animate__pulse animate__infinite">
+        <i class="fa-solid fa-bolt"></i> CHƠI BETA NGAY
+      </a>
+    </nav>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main class="site-main">
+
+    <!-- 1. HERO SECTION (Animate.css & Cyberpunk Showcase) -->
+    <section id="hero" class="hero-section" aria-labelledby="hero-title">
+      <div class="hero-container">
+        
+        <article class="hero-content">
+          <header class="hero-badge-group">
+            <span class="cyber-tag animate__animated animate__fadeInDown">
+              <span class="blinking-dot"></span> CLOSED BETA TEST • GEN-Z ONLY
+            </span>
+            <span class="sub-tag animate__animated animate__fadeInDown animate__delay-1s">
+              UNREAL ENGINE 5.4 • WEB-TACTICS
+            </span>
+          </header>
+
+          <h1 id="hero-title" class="hero-title animate__animated animate__fadeInDown">
+            NEON PROTOCOL <br>
+            <span class="neon-glow-text">KHAI MỞ KỶ NGUYÊN</span>
+          </h1>
+
+          <p class="hero-tagline animate__animated animate__fadeIn animate__delay-1s">
+            Tựa game nhập vai chiến thuật tương lai kết hợp cơ chế đấu tướng thời gian thực, lập trình neural hacker và đấu trường cyberpunk ngập tràn ánh sáng neon dành riêng cho thế hệ Gen Z.
+          </p>
+
+          <footer class="hero-actions animate__animated animate__zoomIn animate__delay-1s">
+            <a href="#pre-register" class="btn btn-neon btn-lg">
+              <i class="fa-solid fa-download"></i> ĐĂNG KÝ NHẬN QUÀ SSR
+            </a>
+            <a href="#characters" class="btn btn-outline-pink btn-lg">
+              <i class="fa-solid fa-users-viewfinder"></i> KHÁM PHÁ CHIẾN BINH
+            </a>
+          </footer>
+
+          <aside class="hero-meta-stats animate__animated animate__fadeInUp animate__delay-2s" aria-label="Thống kê ấn tượng">
+            <div class="meta-item">
+              <span class="meta-num">500K+</span>
+              <span class="meta-label">Chiến Binh Đăng Ký</span>
+            </div>
+            <div class="meta-separator"></div>
+            <div class="meta-item">
+              <span class="meta-num">120 FPS</span>
+              <span class="meta-label">Ray Tracing Mượt Mà</span>
+            </div>
+            <div class="meta-separator"></div>
+            <div class="meta-item">
+              <span class="meta-num">9.8/10</span>
+              <span class="meta-label">Đánh Giá Gen Z Gaming</span>
+            </div>
+          </aside>
+        </article>
+
+        <figure class="hero-visual animate__animated animate__fadeInRight animate__delay-1s">
+          <img src="assets/cyber_hero.svg" alt="Cyber-Chrono 2088 Neon Protocol Hero Visual" class="hero-illustration" width="580" height="480">
+          <figcaption class="hero-caption">
+            <span class="hud-status"><i class="fa-solid fa-shield-halved"></i> SERVER: NEON CITY #01 [ONLINE]</span>
+            <span class="hud-ping">PING: 12ms</span>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- 2. GAME LORE & WORLD (AOS data-aos="fade-up") -->
+    <section id="lore" class="lore-section" data-aos="fade-up" aria-labelledby="lore-title">
+      <header class="section-header">
+        <span class="cyber-section-badge"><i class="fa-solid fa-dna"></i> BỐI CẢNH THẾ GIỚI 2088</span>
+        <h2 id="lore-title" class="section-title">THÀNH PHỐ KHÔNG NGỦ • NEO-VERIDIA</h2>
+        <p class="section-desc">Nơi công nghệ điều khiển học (Cybernetics) và trí tuệ nhân tạo độc tài chi phối mọi ngóc ngách của đời sống.</p>
+      </header>
+
+      <div class="lore-grid">
+        <article class="lore-card" data-aos="fade-right" data-aos-delay="100">
+          <div class="lore-icon-box"><i class="fa-solid fa-microchip"></i></div>
+          <h3 class="lore-heading">Cuộc Khởi Nghĩa Netrunner</h3>
+          <p>
+            Năm 2088, tập đoàn hắc ám Chrono Corp kích hoạt giao thức kiểm soát tâm trí toàn cầu. Là một thủ lĩnh chiến thuật trẻ tuổi, bạn phải chiêu mộ những Hacker, Ninja cơ khí và Đấu sĩ Cyborg nổi loạn để giành lại tự do.
+          </p>
+        </article>
+
+        <article class="lore-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="lore-icon-box pink"><i class="fa-solid fa-cubes-stacked"></i></div>
+          <h3 class="lore-heading">Chiến Thuật Bàn Cờ Lục Giác</h3>
+          <p>
+            Đột phá lối chơi chiến thuật theo lượt truyền thống bằng bản đồ lục giác (Hex-Grid) tương tác vật lý. Lợi dụng địa hình neon, che chắn EMP và bẫy điện từ để đảo ngược thế trận chỉ trong một lượt đi.
+          </p>
+        </article>
+
+        <article class="lore-card" data-aos="fade-left" data-aos-delay="300">
+          <div class="lore-icon-box cyan"><i class="fa-solid fa-fingerprint"></i></div>
+          <h3 class="lore-heading">Cá Nhân Hóa DNA Cyborg</h3>
+          <p>
+            Tự do nâng cấp cây kỹ năng Neural Link, gắn chip tăng lực Hyper-Drive và phối màu thời trang streetwear phong cách Cyberpunk độc bản cho từng thành viên trong tiểu đội.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3. CHARACTERS SECTION (CSS GRID LAYOUT & <article class="character-card">) -->
+    <section id="characters" class="characters-section" data-aos="fade-up" aria-labelledby="char-title">
+      <header class="section-header">
+        <span class="cyber-section-badge"><i class="fa-solid fa-users-rays"></i> ĐỘI HÌNH CHIẾN BINH SSR</span>
+        <h2 id="char-title" class="section-title">DANH SÁCH TƯỚNG CHIẾN THUẬT</h2>
+        <p class="section-desc">Mỗi nhân vật sở hữu bộ chiêu thức Cyber độc quyền, tương khắc nguyên tố và phong cách chiến đấu đỉnh cao.</p>
+      </header>
+
+      <!-- CSS GRID: 4 Character Cards -->
+      <div class="character-grid">
+
+        <!-- Character 1: Kira -->
+        <article class="character-card" data-aos="fade-up" data-aos-delay="100">
+          <figure class="char-figure">
+            <img src="assets/character1.svg" alt="Nhân vật Kira - Cyber Assassin" class="char-img" loading="lazy">
+            <span class="char-rarity rarity-ssr">SSR</span>
+            <figcaption class="char-role-badge"><i class="fa-solid fa-bolt-lightning"></i> SÁT THỦ NEON</figcaption>
+          </figure>
+
+          <div class="char-body">
+            <header class="char-header">
+              <span class="char-codename">CODE: PHANTOM-01</span>
+              <h3 class="char-name">KIRA THE VOID</h3>
+            </header>
+
+            <p class="char-bio">
+              Ninja cơ khí tốc độ cao, sử dụng song kiếm Plasma bẻ cong không gian và tàng hình sau màn khói nano.
+            </p>
+
+            <div class="char-stat-list">
+              <div class="stat-row">
+                <span class="stat-name">TỐC ĐỘ (SPD)</span>
+                <div class="stat-bar"><div class="stat-fill cyan" style="width: 95%;"></div></div>
+                <span class="stat-val">95%</span>
+              </div>
+              <div class="stat-row">
+                <span class="stat-name">SÁT THƯƠNG (ATK)</span>
+                <div class="stat-bar"><div class="stat-fill pink" style="width: 92%;"></div></div>
+                <span class="stat-val">92%</span>
+              </div>
+            </div>
+
+            <footer class="char-footer">
+              <span class="skill-name"><i class="fa-solid fa-skull"></i> Chiêu Cuối: Void Slice</span>
+              <button class="btn-char-select" aria-label="Chọn Kira"><i class="fa-solid fa-plus"></i></button>
+            </footer>
+          </div>
+        </article>
+
+        <!-- Character 2: Vex -->
+        <article class="character-card" data-aos="fade-up" data-aos-delay="200">
+          <figure class="char-figure">
+            <img src="assets/character2.svg" alt="Nhân vật Vex - Neural Netrunner" class="char-img" loading="lazy">
+            <span class="char-rarity rarity-ssr">SSR</span>
+            <figcaption class="char-role-badge cyan-badge"><i class="fa-solid fa-network-wired"></i> HACKER TÂM TRÍ</figcaption>
+          </figure>
+
+          <div class="char-body">
+            <header class="char-header">
+              <span class="char-codename">CODE: SYNAPSE-99</span>
+              <h3 class="char-name">VEX PROTOCOL</h3>
+            </header>
+
+            <p class="char-bio">
+              Thiên tài xâm nhập không gian số, vô hiệu hóa vũ khí đối phương từ xa và phát tán virus làm quá tải lõi AI.
+            </p>
+
+            <div class="char-stat-list">
+              <div class="stat-row">
+                <span class="stat-name">HACKING (INT)</span>
+                <div class="stat-bar"><div class="stat-fill cyan" style="width: 98%;"></div></div>
+                <span class="stat-val">98%</span>
+              </div>
+              <div class="stat-row">
+                <span class="stat-name">KHỐNG CHẾ (CC)</span>
+                <div class="stat-bar"><div class="stat-fill pink" style="width: 88%;"></div></div>
+                <span class="stat-val">88%</span>
+              </div>
+            </div>
+
+            <footer class="char-footer">
+              <span class="skill-name"><i class="fa-solid fa-bug"></i> Chiêu Cuối: System Crash</span>
+              <button class="btn-char-select" aria-label="Chọn Vex"><i class="fa-solid fa-plus"></i></button>
+            </footer>
+          </div>
+        </article>
+
+        <!-- Character 3: Titan-09 -->
+        <article class="character-card" data-aos="fade-up" data-aos-delay="300">
+          <figure class="char-figure">
+            <img src="assets/character3.svg" alt="Nhân vật Titan-09 - Mech Vanguard" class="char-img" loading="lazy">
+            <span class="char-rarity rarity-ssr">SSR</span>
+            <figcaption class="char-role-badge green-badge"><i class="fa-solid fa-shield"></i> HÀNG THỦ TIÊN PHONG</figcaption>
+          </figure>
+
+          <div class="char-body">
+            <header class="char-header">
+              <span class="char-codename">CODE: AEGIS-09</span>
+              <h3 class="char-name">TITAN-09 MECH</h3>
+            </header>
+
+            <p class="char-bio">
+              Chiến giáp hạng nặng trang bị khiên chắn năng lượng vòm và đại bác từ trường dập tắt mọi đợt tập kích.
+            </p>
+
+            <div class="char-stat-list">
+              <div class="stat-row">
+                <span class="stat-name">PHÒNG THỦ (DEF)</span>
+                <div class="stat-bar"><div class="stat-fill cyan" style="width: 99%;"></div></div>
+                <span class="stat-val">99%</span>
+              </div>
+              <div class="stat-row">
+                <span class="stat-name">BẢO KÊ (SUP)</span>
+                <div class="stat-bar"><div class="stat-fill pink" style="width: 85%;"></div></div>
+                <span class="stat-val">85%</span>
+              </div>
+            </div>
+
+            <footer class="char-footer">
+              <span class="skill-name"><i class="fa-solid fa-shield-virus"></i> Chiêu Cuối: Iron Fortress</span>
+              <button class="btn-char-select" aria-label="Chọn Titan-09"><i class="fa-solid fa-plus"></i></button>
+            </footer>
+          </div>
+        </article>
+
+        <!-- Character 4: Nyx -->
+        <article class="character-card" data-aos="fade-up" data-aos-delay="400">
+          <figure class="char-figure">
+            <img src="assets/character4.svg" alt="Nhân vật Nyx - Psionic Strategist" class="char-img" loading="lazy">
+            <span class="char-rarity rarity-ssr">SSR</span>
+            <figcaption class="char-role-badge"><i class="fa-solid fa-eye"></i> TÂM LINH CHIẾN THUẬT</figcaption>
+          </figure>
+
+          <div class="char-body">
+            <header class="char-header">
+              <span class="char-codename">CODE: ASTRAL-X</span>
+              <h3 class="char-name">NYX SOVEREIGN</h3>
+            </header>
+
+            <p class="char-bio">
+              Nhà ngoại cảm điều khiển sóng não, thôi miên quân địch tấn công lẫn nhau và hồi năng lượng tức thì cho đồng đội.
+            </p>
+
+            <div class="char-stat-list">
+              <div class="stat-row">
+                <span class="stat-name">TÂM LINH (PSI)</span>
+                <div class="stat-bar"><div class="stat-fill cyan" style="width: 96%;"></div></div>
+                <span class="stat-val">96%</span>
+              </div>
+              <div class="stat-row">
+                <span class="stat-name">CHIẾN THUẬT (TAC)</span>
+                <div class="stat-bar"><div class="stat-fill pink" style="width: 94%;"></div></div>
+                <span class="stat-val">94%</span>
+              </div>
+            </div>
+
+            <footer class="char-footer">
+              <span class="skill-name"><i class="fa-solid fa-brain"></i> Chiêu Cuối: Mind Overload</span>
+              <button class="btn-char-select" aria-label="Chọn Nyx"><i class="fa-solid fa-plus"></i></button>
+            </footer>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 4. GAMEPLAY FEATURES (AOS data-aos="fade-up") -->
+    <section id="gameplay" class="gameplay-section" data-aos="fade-up" aria-labelledby="gameplay-title">
+      <header class="section-header">
+        <span class="cyber-section-badge"><i class="fa-solid fa-gamepad"></i> CƠ CHẾ ĐỘT PHÁ</span>
+        <h2 id="gameplay-title" class="section-title">LỐI CHƠI TACTICAL GEN-Z</h2>
+        <p class="section-desc">Không cần cày cuốc liên tục - Tận hưởng chiến thuật trí tuệ, đồ họa đỉnh cao và phong cách thời thượng.</p>
+      </header>
+
+      <div class="features-layout">
+        <article class="feature-box" data-aos="zoom-in" data-aos-delay="100">
+          <span class="feature-num">01</span>
+          <h3 class="feature-title">Real-Time Hex Combo</h3>
+          <p>Kích hoạt chuỗi combo liên hoàn giữa Sát thủ và Netrunner để nhân 300% sát thương chí mạng trên lưới điện.</p>
+        </article>
+
+        <article class="feature-box" data-aos="zoom-in" data-aos-delay="200">
+          <span class="feature-num">02</span>
+          <h3 class="feature-title">AI Auto-Tactics Assistant</h3>
+          <p>Hệ thống AI tích hợp học hỏi phong cách chiến đấu của bạn, tự động tối ưu hóa vị trí quân lính khi AFK.</p>
+        </article>
+
+        <article class="feature-box" data-aos="zoom-in" data-aos-delay="300">
+          <span class="feature-num">03</span>
+          <h3 class="feature-title">Cross-Platform Sync</h3>
+          <p>Chơi mượt mà từ trình duyệt Web, PC đến Mobile với công nghệ đồng bộ thời gian thực 0 độ trễ.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 5. PRE-REGISTER SECTION (Semantic Form & Contact) -->
+    <section id="pre-register" class="register-section" data-aos="fade-up" aria-labelledby="register-title">
+      <div class="register-card">
+        
+        <header class="register-header">
+          <span class="cyber-section-badge pink-badge"><i class="fa-solid fa-gift"></i> QUÀ TẶNG TRỊ GIÁ 2.000.000 VNĐ</span>
+          <h2 id="register-title" class="register-title">ĐĂNG KÝ SỚM CLOSED BETA</h2>
+          <p class="register-desc">Tham gia ngay hôm nay để nhận trọn bộ vé quay gacha tướng SSR Kira và skin Cyberpunk giới hạn!</p>
+        </header>
+
+        <form class="cyber-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Chúc mừng bạn đã ghi danh Closed Beta thành công! Giftcode VIP đã gửi tới hòm thư.');">
+          <fieldset class="cyber-fieldset">
+            <legend class="sr-only">Thông tin đăng ký chiến binh</legend>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="player-name" class="cyber-label"><i class="fa-solid fa-user-astronaut"></i> Tên Chiến Binh / Nickname *</label>
+                <input type="text" id="player-name" name="nickname" class="cyber-input" placeholder="Ví dụ: CyberLord_2088" required>
+              </div>
+
+              <div class="form-group">
+                <label for="player-email" class="cyber-label"><i class="fa-solid fa-envelope"></i> Email Nhận Giftcode *</label>
+                <input type="email" id="player-email" name="email" class="cyber-input" placeholder="tenban@email.com" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="player-faction" class="cyber-label"><i class="fa-solid fa-shield-cat"></i> Phe Phái Gia Nhập</label>
+                <select id="player-faction" name="faction" class="cyber-input cyber-select">
+                  <option value="netrunner">Hội Netrunner Ngầm (Phá Mã Hắc Ám)</option>
+                  <option value="assassin">Bóng Đêm Neon (Sát Thủ Cơ Khí)</option>
+                  <option value="vanguard">Lực Lượng Phòng Vệ (Mech Titan)</option>
+                  <option value="psionic">Hội Tâm Linh Trật Tự (Psionic)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="player-platform" class="cyber-label"><i class="fa-solid fa-laptop-code"></i> Nền Tảng Trải Nghiệm</label>
+                <select id="player-platform" name="platform" class="cyber-input cyber-select">
+                  <option value="web">Web Browser (HTML5 / WebGL)</option>
+                  <option value="pc">PC Client (DirectX 12)</option>
+                  <option value="mobile">Mobile (iOS &amp; Android)</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-neon btn-block btn-submit">
+              <i class="fa-solid fa-rocket"></i> XÁC NHẬN GHI DANH NHẬN TƯỚNG SSR
+            </button>
+          </fieldset>
+        </form>
+
+        <address class="student-author-info">
+          <p><i class="fa-solid fa-code"></i> Dự án đồ án môn Thiết kế Web • Thực hiện bởi sinh viên: <strong>Mạc Thủy Thiên Ân</strong> (MSSV: <strong>25AI111</strong>) - Khoa CNTT, <strong>Trường Đại học Lạc Hồng (LHU)</strong></p>
+        </address>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      
+      <div class="footer-brand-box">
+        <a href="#hero" class="brand-logo" aria-label="Cyber-Chrono 2088">
+          <span class="logo-symbol"><i class="fa-solid fa-gamepad"></i></span>
+          <span class="logo-title">CYBER<span class="highlight-cyan">CHRONO</span></span>
+          <span class="logo-badge">2088</span>
+        </a>
+        <p class="footer-slogan">
+          Cyber-Gamified Showcase Landing Page • Giới thiệu tựa game nhập vai chiến thuật Gen Z hàng đầu.
+        </p>
+      </div>
+
+      <nav class="footer-links-group" aria-label="Liên kết chân trang">
+        <h4 class="footer-col-title">ĐIỀU HƯỚNG NHANH</h4>
+        <ul class="footer-link-list">
+          <li><a href="#hero">Trang Chủ</a></li>
+          <li><a href="#lore">Cốt Truyện</a></li>
+          <li><a href="#characters">Đội Hình Tướng</a></li>
+          <li><a href="#gameplay">Tính Năng</a></li>
+          <li><a href="#pre-register">Đăng Ký Sớm</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-social-box">
+        <h4 class="footer-col-title">CỘNG ĐỒNG GEN-Z</h4>
+        <ul class="social-icon-row" aria-label="Mạng xã hội game">
+          <li><a href="https://discord.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Discord"><i class="fa-brands fa-discord"></i></a></li>
+          <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+          <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+        <span class="online-gamers"><i class="fa-solid fa-users"></i> 14,820 Chiến binh đang online</span>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom-bar">
+      <p class="copyright-text">
+        &copy; 2026 <strong>CYBER-CHRONO: NEON PROTOCOL</strong>. Sinh viên thực hiện: <strong>Mạc Thủy Thiên Ân (25AI111)</strong>. Trường Đại học Lạc Hồng.
+      </p>
+      <a href="#hero" class="btn-back-to-top" aria-label="Cuộn lên đầu trang">
+        <i class="fa-solid fa-chevron-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- ==================== SCRIPTS & AOS INITIALIZATION ==================== -->
+  <!-- AOS (Animate On Scroll) JavaScript Library CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  
+  <script>
+    // Initialize AOS safely after DOM content loads
+    document.addEventListener('DOMContentLoaded', function () {
+      AOS.init({
+        duration: 800,
+        easing: 'ease-out-cubic',
+        once: true,
+        offset: 50,
+        delay: 50
+      });
+
+      // Refresh positions on resize
+      window.addEventListener('resize', function () {
+        AOS.refresh();
+      });
+    });
+  </script>
+
+</body>
+</html>

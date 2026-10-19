@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="char4Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#311042"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="neonGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="500" height="600" rx="16" fill="url(#char4Bg)"/>
+
+  <g opacity="0.25" stroke="#f43f5e" stroke-width="1.5" fill="none">
+    <circle cx="250" cy="260" r="140"/>
+    <polygon points="250,120 370,330 130,330"/>
+    <polygon points="250,400 370,190 130,190"/>
+  </g>
+
+  <circle cx="120" cy="220" r="16" fill="#f43f5e" filter="url(#glowGold)"/>
+  <circle cx="380" cy="220" r="16" fill="#06b6d4" filter="url(#glowGold)"/>
+  <circle cx="250" cy="140" r="14" fill="#a855f7" filter="url(#glowGold)"/>
+
+  <path d="M140 540 L180 380 L230 350 L270 350 L320 380 L360 540 Z" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <path d="M180 380 L250 460 L320 380" fill="none" stroke="#f43f5e" stroke-width="2.5"/>
+
+  <ellipse cx="250" cy="250" rx="60" ry="75" fill="#0f172a" stroke="#f43f5e" stroke-width="2"/>
+  
+  <path d="M200 210 L170 140 L210 170" fill="none" stroke="#f59e0b" stroke-width="3" filter="url(#glowGold)"/>
+  <path d="M300 210 L330 140 L290 170" fill="none" stroke="#f59e0b" stroke-width="3" filter="url(#glowGold)"/>
+
+  <polygon points="250,210 262,228 250,246 238,228" fill="#f43f5e" filter="url(#glowGold)"/>
+  <line x1="215" y1="250" x2="235" y2="250" stroke="#06b6d4" stroke-width="3"/>
+  <line x1="265" y1="250" x2="285" y2="250" stroke="#06b6d4" stroke-width="3"/>
+
+  <rect x="160" y="520" width="180" height="36" rx="6" fill="#0f172a" stroke="#f43f5e" stroke-width="2"/>
+  <text x="250" y="544" fill="#f43f5e" font-family="'Orbitron', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="3">CLASS: PSIONIC</text>
+  <text x="250" y="580" fill="#94a3b8" font-family="'Orbitron', sans-serif" font-size="11" text-anchor="middle">TACTICS: S+ | MIND CONTROL</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="char3Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="500" height="600" rx="16" fill="url(#char3Bg)"/>
+
+  <g opacity="0.15" stroke="#10b981" stroke-width="2">
+    <line x1="50" y1="50" x2="450" y2="50" stroke-dasharray="10, 10"/>
+    <line x1="50" y1="550" x2="450" y2="550" stroke-dasharray="10, 10"/>
+  </g>
+
+  <path d="M120 120 L380 120 L380 320 L250 440 L120 320 Z" fill="none" stroke="#10b981" stroke-width="2" stroke-dasharray="12,6" opacity="0.4"/>
+
+  <path d="M100 540 L140 360 L210 330 L290 330 L360 360 L400 540 Z" fill="#1e293b" stroke="#334155" stroke-width="3"/>
+  <rect x="180" y="380" width="140" height="80" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="2"/>
+  <circle cx="250" cy="420" r="22" fill="#06b6d4" filter="url(#glowGreen)"/>
+  <circle cx="250" cy="420" r="12" fill="#ffffff"/>
+
+  <rect x="90" y="320" width="50" height="70" rx="6" fill="#334155" stroke="#10b981" stroke-width="2"/>
+  <rect x="360" y="320" width="50" height="70" rx="6" fill="#334155" stroke="#10b981" stroke-width="2"/>
+
+  <polygon points="200,310 300,310 320,240 280,180 220,180 180,240" fill="#0f172a" stroke="#06b6d4" stroke-width="3"/>
+  <rect x="215" y="240" width="70" height="14" rx="4" fill="#10b981" filter="url(#glowGreen)"/>
+  <circle cx="250" cy="247" r="4" fill="#ffffff"/>
+
+  <rect x="160" y="520" width="180" height="36" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="2"/>
+  <text x="250" y="544" fill="#10b981" font-family="'Orbitron', sans-serif" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="3">CLASS: VANGUARD</text>
+  <text x="250" y="580" fill="#94a3b8" font-family="'Orbitron', sans-serif" font-size="11" text-anchor="middle">DEFENSE: SSS | ARMOR: MAX</text>
+</svg>
